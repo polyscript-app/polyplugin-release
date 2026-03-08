@@ -30,7 +30,12 @@
       "name": "Polyscript (Local Files)"
     }
   ],
-  "allowedDomains": ["*", "polyscript.app", "api.polyscript.app", "translate.googleapis.com"],
+  "allowedDomains": [
+    "*",
+    "polyscript.app",
+    "api.polyscript.app",
+    "translate.googleapis.com"
+  ],
   "preferenceDefaults": {
     "primaryLang": "en",
     "secondaryLang": "",
