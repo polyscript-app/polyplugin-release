@@ -7,7 +7,7 @@
   "description": "Dual subtitles with hover dictionary, AI translation, and language learning features for IINA",
   "author": {
     "name": "Polyscript",
-    "email": "support@polyscript.app",
+    "email": "polyscript.help@gmail.com",
     "url": "https://polyscript.app"
   },
   "entry": "dist/index.js",
