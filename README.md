@@ -1,35 +1,30 @@
-# PolyPlugin Dev Modes
+# Polyplugin for IINA
 
-## Local development
+## Install
 
-Use the dev symlink so IINA loads the plugin directly from this repo:
+1. Install [IINA](https://iina.io/) on macOS.
+2. In IINA, open `Preferences -> Plugins`.
+3. Choose `Install from GitHub...`.
+4. Paste `polyscript-app/polyplugin-release`.
+5. Restart IINA, open a video, and open the `Polyscript` sidebar tab.
 
-```bash
-npm run dev:link
-npm run dev:watch
-```
+IINA also accepts:
 
-`dev:watch` rebuilds, syncs, and restarts IINA on changes.
+- `https://github.com/polyscript-app/polyplugin-release`
+- `github.com/polyscript-app/polyplugin-release`
 
-## Release testing
+If the GitHub installer fails, download the latest package from the
+[Releases](https://github.com/polyscript-app/polyplugin-release/releases) page and install it manually.
 
-Remove the local dev install before testing the GitHub-distributed plugin:
+## First Run
 
-```bash
-npm run dev:unlink
-```
+- Open a video with embedded subtitles or load an `.srt` subtitle file.
+- Turn on the Polyscript sidebar tab if it is hidden.
+- Choose your target language and enable the translated subtitle overlay.
+- Basic Google-powered translation works without account sign-in.
+- Use sign-in or free trial for synced Polyscript account features and custom AI targets.
 
-Then restart IINA, open `Preferences → Plugins`, choose `Install from GitHub...`, and paste one of:
+## Troubleshooting
 
-`https://github.com/SammoMichael/polyplugin-release`
-
-IINA also accepts the GitHub URL path form:
-
-`github.com/SammoMichael/polyplugin-release`
-
-IINA also accepts the shorthand repo path:
-
-`SammoMichael/polyplugin-release`
-
-This avoids false results where IINA is still loading the local source repo through
-`polyplugin.iinaplugin-dev`.
+- If you were previously testing a local dev build, remove it before installing this public release.
+- Restart IINA after installation so the plugin sidebar and overlay controls appear cleanly.
