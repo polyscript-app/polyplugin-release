@@ -87,6 +87,7 @@
     "polyscriptEnabled": true,
     "autoLoadSubtitles": false,
     "autoPickSourceSubtitles": true,
+    "useNativeSubsWhenAvailable": true,
     "ttsCloudFallback": true,
     "psTelemetryDeviceId": ""
   }

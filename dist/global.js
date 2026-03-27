@@ -1,2 +1,5 @@
-iina.console.log("Plugin is running");
-//# sourceMappingURL=global.js.map
+(() => {
+  // src/global.js
+  var { console } = iina;
+  console.log("Plugin is running");
+})();
